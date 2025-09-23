@@ -1,0 +1,21 @@
+{
+    "name": "soophiiaaa/alura-search-engine",
+    "description": "Project that searches for courses on the Alura website",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sophia Lacerda",
+            "email": "sbuarquemagalhaes@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sophia\\SearchEngine\\": "src/"
+        }
+    }
+}
