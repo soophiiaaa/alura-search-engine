@@ -17,5 +17,8 @@
         "psr-4": {
             "Sophia\\SearchEngine\\": "src/"
         }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
     }
 }

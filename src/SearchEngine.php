@@ -8,17 +8,18 @@ use Symfony\Component\DomCrawler\Crawler;
 class SearchEngine
 {
     /**
-     * @var ClientInterface 
+     * @var ClientInterface
      */
     private $httpClient;
     /**
-     * @var Crawler 
+     * @var Crawler
      */
     private $crawler;
 
-    public function __construct(ClientInterface $httpClientInterface, 
-    Crawler $crawler)
-    {
+    public function __construct(
+        ClientInterface $httpClientInterface,
+        Crawler $crawler
+    ) {
         $this->httpClient = $httpClientInterface;
         $this->crawler = $crawler;
     }

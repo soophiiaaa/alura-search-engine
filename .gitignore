@@ -1,0 +1,15 @@
+# Dependências do Composer
+/vendor/
+
+# Arquivos de cache
+
+/composer.lock
+
+# Logs
+*.log
+
+# Sistema de cache do PHP
+*.cache
+
+# Configurações do VSCode
+.vscode/
