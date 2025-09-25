@@ -21,5 +21,17 @@
     "require-dev": {
         "squizlabs/php_codesniffer": "^4.0",
         "phan/phan": "^5.5"
+    },
+    "scripts": {
+        "cs": "phpcs --standard=PSR12 src/",
+        "phan": "phan --allow-polyfill-parser",
+        "ls": "dir",
+        "check": [
+            "@phan",
+            "@cs"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Run code checks"
     }
 }
